@@ -1,17 +1,19 @@
 import React, { useState } from "react";
 
-const InputForm = () => {
+const InputForm = ({ thumbnailUrl, setThumbnailUrl }) => {
   const [urlInput, setUrlInput] = useState("");
   const [videoId, setVideoId] = useState("");
-  const [thumbnailUrl, setThumbnailUrl] = useState(null);
 
   const handleUrlInput = (e) => {
     setUrlInput(e.target.value);
   };
   const handleGenarate = () => {
-    const id = urlInput.split("=")[1];
-    console.log(id);
-    setVideoId(id);
+    const splitting = urlInput.split("/")[3];
+    const finalID = splitting.split("?")[0];
+    setVideoId(finalID);
+    const url = `https://img.youtube.com/vi/${finalID}/maxresdefault.jpg`;
+    console.log(finalID);
+    setThumbnailUrl(url);
   };
 
   return (
