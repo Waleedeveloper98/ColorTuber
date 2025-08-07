@@ -31,3 +31,10 @@ YTQuickView is a simple web tool that lets you quickly preview key details of an
    - Tags related to the video
 
 
+
+## 📌 Technologies Used
+
+- HTML
+- Tailwind CSS
+- React Js
+- YouTube Data API v3
