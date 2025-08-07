@@ -46,7 +46,6 @@ const App = () => {
       setVideoId(finalID);
       let thumbnail = `https://img.youtube.com/vi/${finalID}/maxresdefault.jpg`;
       setThumbnailUrl(thumbnail);
-      console.log(thumbnail);
       
       setUrlInput("");
 
