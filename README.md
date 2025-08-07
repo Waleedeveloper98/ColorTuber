@@ -1,12 +1,33 @@
-# React + Vite
+# YTQuickView 🎥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+YTQuickView is a simple web tool that lets you quickly preview key details of any YouTube video. Just paste a YouTube video link, hit the **Generate** button, and instantly get:
 
-Currently, two official plugins are available:
+- 📷 **Thumbnail**
+- 👁️ **Total Views**
+- 📺 **Channel Name**
+- 📅 **Upload Date**
+- 🏷️ **Video Tags**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- Easy-to-use interface
+- Automatically fetches data using the YouTube video URL
+- Clean and responsive UI
+
+---
+
+## 🛠️ How It Works
+
+1. Enter a valid YouTube video link in the input field.
+2. Click the **Generate** button.
+3. The app fetches and displays:
+   - The video thumbnail
+   - Total number of views
+   - Channel name
+   - Upload date
+   - Tags related to the video
+
+
