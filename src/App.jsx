@@ -85,7 +85,7 @@ const App = () => {
   };
 
   return (
-    <main className="w-full min-h-screen bg-zinc-800 text-white flex flex-col items-center justify-between gap-10">
+    <main className="main">
       <Navbar />
       <div className="w-full flex flex-col gap-6 text-center">
         <h1 className="text-3xl md:text-5xl font-bold">Quick <span className="text-red-500">YouTube</span> Data</h1>
